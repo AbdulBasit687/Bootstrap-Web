@@ -1,0 +1,374 @@
+
+.logo{
+    width: 150px;
+}
+.subheader {
+      background-color: #212529; /* Dark background */
+      color: white;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+    .subheader a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .social-icons a {
+      margin-left: 15px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1A1A33;
+      }
+      .subheader {
+        background-color: #212529;
+        color: white;
+        padding: 10px 0;
+      }
+      .subheader a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      .navbar {
+        margin-bottom: 20px;
+      }
+      .container-fluid {
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1A1A33;
+      }
+      .section {
+        padding: 50px 0;
+        background: linear-gradient(135deg, #1A1A33, #1A1A33);
+      }
+      .heading {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .subheading {
+        font-size: 1.2rem;
+        color: gray;
+      }
+      .badge {
+        background-color: #e0d7ff;
+        color: #633fca;
+        font-size: 0.9rem;
+      }
+      .image-stack {
+        position: relative;
+      }
+      .image-stack img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .image-stack .top-image {
+        position: absolute;
+        top: -30px;
+        right: -20px;
+        width: 70%;
+      }
+      .image-stack .bottom-image {
+        position: absolute;
+        bottom: -20px;
+        left: -20px;
+        width: 50%;
+      }
+
+      /* Card Section Css */
+      body {
+        background-color: #1A1A33; /* Dark background color */
+        color: #fff;
+    }
+    .feature-card {
+        background-color: rgba(255, 255, 255, 0.05); /* Transparent card background */
+        border: 1px solid rgba(255, 255, 255, 0.1); /* Border */
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+        transform: translateY(-5px);
+    }
+    .feature-icon {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #8888ff; /* Icon color */
+    }
+    .feature-heading {
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 1.25rem;
+    }
+    .feature-description {
+        color: #b0b0b0;
+    }
+
+    /* About Section */
+    body {
+      background-color: #1A1A33; /* Dark background color */
+      color: #fff;
+  }
+  .about-section {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 40px;
+  }
+  .about-image img {
+      max-width: 100%;
+      border-radius: 10px;
+  }
+  .badge-style {
+      background-color: #5853D6;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-weight: 500;
+  }
+  .about-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+  }
+  .about-text {
+      color: #b0b0b0;
+      margin-bottom: 20px;
+  }
+  .checklist {
+      list-style-type: none;
+      padding: 0;
+      color: #b0b0b0;
+  }
+  .checklist li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 10px;
+  }
+  .checklist li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #4C83E4;
+  }
+  .btn-style {
+      background-color: #5853D6;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: 500;
+  }
+  .btn-style:hover {
+      background-color: #4C83E4;
+      color: #fff;
+  }
+  /* Courses List */
+  body {
+    background-color: #1b1b2f;
+    color: #fff;
+}
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+.card {
+    background-color: #2e2e4e;
+    border: none;
+    color: #fff;
+}
+.card h5 {
+    font-weight: bold;
+}
+.card p {
+    color: #ccc;
+}
+.btn-load-more {
+    background-color: #5865f2;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
+.btn-load-more:hover {
+    background-color: #4854d7;
+}
+/* Courses List 2 */
+body {
+  background-color: #1b1b2f;
+  color: #fff;
+}
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+.badge-primary {
+  background-color: #5865f2;
+}
+.card {
+  background-color: #2e2e4e;
+  border: none;
+  color: #fff;
+}
+.card h5 {
+  font-weight: bold;
+}
+.badge-category {
+  background-color: #b34180;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.author-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.rating {
+  color: #f5b50a;
+}
+body {
+  background-color: #1b1b2f;
+  color: #fff;
+}
+.card {
+  background-color: #2e2e4e;
+  border: none;
+  color: #fff;
+}
+.badge-category {
+  background-color: #b34180;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+.badge-cms {
+  background-color: #da3c6b;
+}
+.badge-hosting {
+  background-color: #f7941d;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.author-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.rating {
+  color: #f5b50a;
+}
+.btn-load-more {
+  background-color: #5865f2;
+  color: #fff;
+  border: none;
+}
+.btn-load-more:hover {
+  background-color: #4854c0;
+}
+
+/* FeedBack Section */
+body {
+  background-color: #1a1024;
+  color: #ffffff;
+}
+.feedback-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.feedback-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.feedback-card {
+  background-color: #202038;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+.feedback-card h5 {
+  font-weight: bold;
+}
+.star-rating {
+  color: #ff9f43;
+}
+.feedback-text {
+  color: #ddd;
+}
+
+/* Footer */
+body {
+  background-color: #1a1024;
+  color: #ffffff;
+}
+.footer {
+  background-color: #1a1024;
+  color: #ddd;
+  padding: 40px 0;
+}
+.footer h5 {
+  font-weight: bold;
+  color: #ffffff;
+}
+.footer p, .footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ff9f43;
+}
+.social-icons a {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Header */
+body {
+  background-color: #1a1024;
+  color: #ffffff;
+}
+.navbar {
+  background-color: #1a1024;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+  color: #ff9f43;
+}
+.btn-login {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+.btn-login:hover {
+  background-color: #ff9f43;
+  border-color: #ff9f43;
+}
+.btn-get-started {
+  background-color: #5246d8;
+  color: #ffffff;
+}
+.btn-get-started:hover {
+  background-color: #3a2ab3;
+}
